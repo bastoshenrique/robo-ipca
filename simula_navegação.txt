@@ -1,6 +1,8 @@
-Para captura de dados em sites ou APIs que envolvam interação com elementos HTML, seja através de preenchimentos de formulários ou clicks em botões, é necessário implementar processo automatizado de navegação na página.
+Para captura de dados em sites ou APIs que envolvam interação com elementos HTML, seja através de preenchimentos de formulários ou clicks em botões,
+é necessário implementar processo automatizado de navegação na página.
 Em minhas pesquisas verifiquei que a biblioteca mais utilizada para esses processos é o Selenium(Python) que permite interagir e realizar várias ações em páginas web.
-Não fiz o lab em meu ambiente de desenvolvimento por não saber ao certo as questões que envolvem segurança, para aplicação em ambiente corporativo sugiro uma reunião com a equipe responsável de segurança para análise dos riscos.
+Não fiz o lab em meu ambiente de desenvolvimento por não saber ao certo as questões que envolvem segurança.
+pra aplicação em ambiente corporativo sugiro uma reunião com a equipe responsável de segurança para análise dos riscos.
 
 PRINCIPAIS ORIENTAÇÕES PARA CONFIGURAÇÃO:
 
