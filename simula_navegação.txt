@@ -1,0 +1,47 @@
+Para captura de dados em sites ou APIs que envolvam interação com elementos HTML, seja através de preenchimentos de formulários ou clicks em botões, é necessário implementar processo automatizado de navegação na página.
+Em minhas pesquisas verifiquei que a biblioteca mais utilizada para esses processos é o Selenium(Python) que permite interagir e realizar várias ações em páginas web.
+Não fiz o lab em meu ambiente de desenvolvimento por não saber ao certo as questões que envolvem segurança, para aplicação em ambiente corporativo sugiro uma reunião com a equipe responsável de segurança para análise dos riscos.
+
+Passo a passo para configuração do BOT automatizado :
+
+# Configuração do Selenium:
+Instalar o Selenium e configurar um driver de navegador (ChromeDriver ou GeckoDriver para Firefox).
+Configurar o driver para acessar o site desejado.
+
+Automação da navegação:
+Identificar os elementos relevantes (botões, menus, campos de texto).
+Simular as ações necessárias, como cliques em menus, preenchimento de login e senha, e navegação até a página de download.
+
+Download do arquivo:
+Após chegar à página de download, capturar o link do arquivo ou iniciar o download diretamente.
+Salvar o arquivo no disco local para processamento.
+
+Processamento dos dados:
+Após o download, processar o arquivo (CSV, JSON, etc.) e convertê-lo para o formato desejado (como Parquet).
+
+Exemplo de código básico com Selenium:
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+
+. Configuração do driver
+driver = webdriver.Chrome()  # Substitua por Firefox() se usar GeckoDriver
+driver.get("https://aquiseusite.com")
+
+. Simulação de login
+username = driver.find_element(By.ID, "username")
+password = driver.find_element(By.ID, "password")
+username.send_keys("seu_usuario")
+password.send_keys("sua_senha")
+password.send_keys(Keys.RETURN)
+
+. Navegação até o arquivo
+menu = driver.find_element(By.XPATH, "//a[@href='/menu-dados']")
+menu.click()
+
+botao_download = driver.find_element(By.ID, "download")
+botao_download.click()
+
+. Fechar o driver
+driver.quit()
