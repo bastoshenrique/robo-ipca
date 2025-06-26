@@ -1,7 +1,8 @@
 # robo-ipca
 Robo em Python para capturar dados de IPCA do site e salvar em Parquet 
+Foi utilizado o uso de inteligência artificial ChatGPT4 em vários momentos na criação do BOT.
 
-# Versão Sistema Operacional
+## Versão Sistema Operacional
 24H2 - Windows 11 Pro
 
 
@@ -25,5 +26,3 @@ pip install pandas
 Biblioteca para trabalhar com o formato Parquet.
 Comando de instalação:
 pip install pyarrow
-
-Foi utilizado o uso de inteligência artificial ChatGPT4 em vários momentos na criação do BOT.
