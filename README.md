@@ -15,17 +15,18 @@ Python 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36)
 
 ## requests:
 Biblioteca para fazer requisições HTTP.
+
 Comando de instalação:
 pip install requests
 
 ## pandas:
 Biblioteca para manipulação e análise de dados tabulares.
-Comando de instalação:
 
+Comando de instalação:
 pip install pandas
 
 ## pyarrow:
 Biblioteca para trabalhar com o formato Parquet.
-Comando de instalação:
 
+Comando de instalação:
 pip install pyarrow
