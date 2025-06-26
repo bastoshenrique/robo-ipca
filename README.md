@@ -1,5 +1,5 @@
 # Robô IPCA
-Robo em Python para capturar dados de IPCA do site e salvar em Parquet 
+Robo em Python para capturar dados de IPCA do site e salvar em Parquet
 Foi utilizado o uso de inteligência artificial ChatGPT4 em vários momentos na criação do BOT.
 
 ## Versão Sistema Operacional
