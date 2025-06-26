@@ -21,9 +21,11 @@ pip install requests
 ## pandas:
 Biblioteca para manipulação e análise de dados tabulares.
 Comando de instalação:
+
 pip install pandas
 
 ## pyarrow:
 Biblioteca para trabalhar com o formato Parquet.
 Comando de instalação:
+
 pip install pyarrow
