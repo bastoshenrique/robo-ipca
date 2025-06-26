@@ -2,9 +2,9 @@ Para captura de dados em sites ou APIs que envolvam interação com elementos HT
 Em minhas pesquisas verifiquei que a biblioteca mais utilizada para esses processos é o Selenium(Python) que permite interagir e realizar várias ações em páginas web.
 Não fiz o lab em meu ambiente de desenvolvimento por não saber ao certo as questões que envolvem segurança, para aplicação em ambiente corporativo sugiro uma reunião com a equipe responsável de segurança para análise dos riscos.
 
-Passo a passo para configuração do BOT automatizado :
+PRINCIPAIS ORIENTAÇÕES PARA CONFIGURAÇÃO:
 
-# Configuração do Selenium:
+. Configuração do Selenium:
 Instalar o Selenium e configurar um driver de navegador (ChromeDriver ou GeckoDriver para Firefox).
 Configurar o driver para acessar o site desejado.
 
