@@ -21,7 +21,7 @@ Salvar o arquivo no disco local para processamento.
 Processamento dos dados:
 Após o download, processar o arquivo (CSV, JSON, etc.) e convertê-lo para o formato desejado (como Parquet).
 
-Exemplo de código básico com Selenium:
+EXEMPLO DE CÓDIGO SIMPLES COM SELENIUM BASEADO NA DOCUMENTAÇÃO:
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
